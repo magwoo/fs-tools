@@ -21,6 +21,10 @@ impl SharedFile {
     pub fn len(&self) -> io::Result<u64> {
         Ok(self.file.metadata()?.len())
     }
+
+    pub fn is_empty(&self) -> io::Result<bool> {
+        self.len().map(|l| l == 0)
+    }
 }
 
 impl Read for SharedFile {
