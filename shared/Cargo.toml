@@ -2,5 +2,10 @@
 name = "shared-file"
 version = "0.1.0-alpha"
 edition = "2021"
+description = "Library for shared, thread-safe file access with independent cursors."
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
 
 [dependencies]
+

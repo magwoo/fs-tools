@@ -1,3 +1,9 @@
 [workspace]
 resolver = "2"
 members = ["framed", "pool", "shared"]
+
+[workspace.package]
+repository = "https://github.com/magwoo/fs-tools"
+keywords = ["fs", "file", "multi-thread"]
+license = "MIT"
+

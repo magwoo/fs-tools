@@ -3,13 +3,13 @@
 version = 3
 
 [[package]]
-name = "framed"
-version = "0.1.0"
+name = "file-pool"
+version = "0.1.0-alpha"
 
 [[package]]
-name = "pool"
-version = "0.1.0"
+name = "framed-file"
+version = "0.1.0-alpha"
 
 [[package]]
-name = "shared"
-version = "0.1.0"
+name = "shared-file"
+version = "0.1.0-alpha"

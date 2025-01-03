@@ -2,5 +2,9 @@
 name = "file-pool"
 version = "0.1.0-alpha"
 edition = "2021"
+license.workspace = true
+repository.workspace = true
+keywords.workspace = true
 
 [dependencies]
+
