@@ -9,6 +9,9 @@ version = "0.1.0-alpha"
 [[package]]
 name = "framed-file"
 version = "0.1.0-alpha"
+dependencies = [
+ "shared-file",
+]
 
 [[package]]
 name = "shared-file"

@@ -2,9 +2,14 @@
 name = "framed-file"
 version = "0.1.0-alpha"
 edition = "2021"
+description = "Library for reading and writing within a specified range of a file."
 license.workspace = true
 repository.workspace = true
 keywords.workspace = true
 
 [dependencies]
+shared-file = { version = "0.1.0-alpha", path = "../shared", optional = true }
+
+[features]
+shared = ["shared-file"]
 

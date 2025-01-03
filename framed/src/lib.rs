@@ -1,6 +1,10 @@
-use std::fs::File;
 use std::io::{self, Read, Seek, SeekFrom, Write};
 use std::ops::Range;
+
+#[cfg(not(feature = "shared"))]
+type File = std::fs::File;
+#[cfg(feature = "shared")]
+type File = shared_file::SharedFile;
 
 type Frame = Range<u64>;
 
